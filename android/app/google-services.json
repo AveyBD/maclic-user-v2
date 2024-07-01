@@ -1,0 +1,144 @@
+{
+  "project_info": {
+    "project_number": "891269160316",
+    "firebase_url": "https://maclic-96a2f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "maclic-96a2f",
+    "storage_bucket": "maclic-96a2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:4268874f3b48136e0a58f9",
+        "android_client_info": {
+          "package_name": "com.maclic.deliveryMan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:783a4ff9759c8ef30a58f9",
+        "android_client_info": {
+          "package_name": "com.maclic.deliveryman_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:d60ce73084e589280a58f9",
+        "android_client_info": {
+          "package_name": "com.maclic.store_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:b3e05b0da5ddfe200a58f9",
+        "android_client_info": {
+          "package_name": "com.maclic.user_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:e427cf2ce2fdaf7e0a58f9",
+        "android_client_info": {
+          "package_name": "com.maclicapp.storeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:4ba7b2bc71bdc3880a58f9",
+        "android_client_info": {
+          "package_name": "com.maclicapp.userapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891269160316:android:cf094256082209d60a58f9",
+        "android_client_info": {
+          "package_name": "com.sixamtech.sixam_mart_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkh9gfLnEWWIP6AIIX4LUlJybdpE8mxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
