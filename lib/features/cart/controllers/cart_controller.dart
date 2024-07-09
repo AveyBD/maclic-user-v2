@@ -144,7 +144,7 @@ class CartController extends GetxController implements GetxService {
     }else {
       _cartList.add(cartModel);
     }
-    Get.find<ItemController>().setExistInCart(cartModel.item, notify: true);
+    Get.find<ItemController>().setExistInCart(cartModel.item, null, notify: true);
     await cartServiceInterface.addSharedPrefCartList(_cartList);
 
     calculationCart();
@@ -163,7 +163,7 @@ class CartController extends GetxController implements GetxService {
 
     double discountedPrice = cartServiceInterface.calculateDiscountedPrice(_cartList[cartIndex], _cartList[cartIndex].quantity!, ModuleHelper.getModuleConfig(_cartList[cartIndex].item!.moduleType).newVariation!);
     if(ModuleHelper.getModuleConfig(_cartList[cartIndex].item!.moduleType).newVariation!) {
-      Get.find<ItemController>().setExistInCart(_cartList[cartIndex].item, notify: true);
+      Get.find<ItemController>().setExistInCart(_cartList[cartIndex].item, null, notify: true);
     }
 
     await updateCartQuantityOnline(_cartList[cartIndex].id!, discountedPrice, _cartList[cartIndex].quantity!);
@@ -271,7 +271,7 @@ class CartController extends GetxController implements GetxService {
     if(success) {
       await getCartDataOnline();
       if(item != null) {
-        Get.find<ItemController>().setExistInCart(item, notify: true);
+        Get.find<ItemController>().setExistInCart(item, null, notify: true);
       }
     }
     _isLoading = false;

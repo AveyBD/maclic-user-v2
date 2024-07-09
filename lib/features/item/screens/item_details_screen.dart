@@ -309,7 +309,7 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                                     cartController.clearCartOnline().then((success) async {
                                       if(success) {
                                         await cartController.addToCartOnline(cart!);
-                                        itemController.setExistInCart(widget.item);
+                                        itemController.setExistInCart(widget.item, null);
                                         showCartSnackBar();
                                       }
                                     });
@@ -320,7 +320,7 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                                 if(itemController.cartIndex == -1) {
                                   await cartController.addToCartOnline(cart!).then((success) {
                                     if(success){
-                                      itemController.setExistInCart(widget.item);
+                                      itemController.setExistInCart(widget.item, null);
                                       showCartSnackBar();
                                       _key.currentState!.shake();
                                     }

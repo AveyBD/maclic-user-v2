@@ -28,4 +28,5 @@ abstract class ItemServiceInterface {
   List<List<bool?>> setNewCartVariationIndex(int index, int i, List<FoodVariation>? foodVariations, List<List<bool?>> selectedVariations);
   int selectedVariationLength(List<List<bool?>> selectedVariations, int index);
   double? getStartingPrice(Item item);
+  int isExistInCartForBottomSheet(List<CartModel> cartList, int? itemId, int? cartIndex, List<List<bool?>>? variations);
 }
